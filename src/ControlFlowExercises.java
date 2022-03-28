@@ -54,8 +54,51 @@ public class ControlFlowExercises {
 //
 //                }
 
+        Scanner userInput = new Scanner(System.in);
+        //Table of powers
+//        System.out.println("What number would you like to go up to?");
+//        int userInt = userInput.nextInt();
+//        System.out.println("Here is your table!");
+//        System.out.println("number | squared | cubed");
+//        System.out.println("------ | ------- | -----");
+//
+//        for(int i =1; i <= userInt;i++){
+//            System.out.print(i+"      |");
+//            System.out.print(i*i+"        |");
+//            System.out.println(i*i*i);
+//        }
+//
+//        System.out.println("would you like to continue? yes or no");
+//        String userWishesToContinue = userInput.next();
+//        if (userWishesToContinue.equalsIgnoreCase("yes")){
+//            System.out.println("What number would you like to go up to?");
+//            int userSecondInput = userInput.nextInt();
+//            System.out.println("Here is your table!");
+//            System.out.println("number | squared | cubed");
+//            System.out.println("------ | ------- | -----");
+//
+//            for(int i =1; i <= userSecondInput;i++){
+//                System.out.print(i+"      |");
+//                System.out.print(i*i+"        |");
+//                System.out.println(i*i*i);
+//            }
+//        }else{
+//            System.out.println("See you again next time!");
+//        };
 
-
+        System.out.println("Enter a grade from 0 to 100");
+        int userInt = userInput.nextInt();
+        if(userInt >= 88){
+            System.out.println("The grade for this score is an A");
+        }else if(userInt >= 80 ){
+            System.out.println("The grade for this score is a B");
+        }else if(userInt >= 67 ){
+            System.out.println("The grade for this score is a C");
+        }else if(userInt >= 60){
+            System.out.println("The grade for this score is a D");
+        }else{
+            System.out.println("The grade for this score is an F");
+        }
 
             }
     }
