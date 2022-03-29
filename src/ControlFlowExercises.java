@@ -19,10 +19,10 @@ public class ControlFlowExercises {
 //        }while(start > -10 );
 
 //        long startsAtTwo = 2;
-//        System.out.println(startsAtTwo);
 //        do {
-//            System.out.println(startsAtTwo *= startsAtTwo);
-//        }while(startsAtTwo < 257);
+//            System.out.println(startsAtTwo);
+//            startsAtTwo *= startsAtTwo;
+//        }while(startsAtTwo < 1_000_000L);
 
 //        for (int i = 5; i <= 15;i++){
 //            System.out.println(i);
@@ -86,19 +86,19 @@ public class ControlFlowExercises {
 //            System.out.println("See you again next time!");
 //        };
 
-        System.out.println("Enter a grade from 0 to 100");
-        int userInt = userInput.nextInt();
-        if(userInt >= 88){
-            System.out.println("The grade for this score is an A");
-        }else if(userInt >= 80 ){
-            System.out.println("The grade for this score is a B");
-        }else if(userInt >= 67 ){
-            System.out.println("The grade for this score is a C");
-        }else if(userInt >= 60){
-            System.out.println("The grade for this score is a D");
-        }else{
-            System.out.println("The grade for this score is an F");
-        }
+//        System.out.println("Enter a grade from 0 to 100");
+//        int userInt = userInput.nextInt();
+//        if(userInt >= 88){
+//            System.out.println("The grade for this score is an A");
+//        }else if(userInt >= 80 ){
+//            System.out.println("The grade for this score is a B");
+//        }else if(userInt >= 67 ){
+//            System.out.println("The grade for this score is a C");
+//        }else if(userInt >= 60){
+//            System.out.println("The grade for this score is a D");
+//        }else{
+//            System.out.println("The grade for this score is an F");
+//        }
 
             }
     }
