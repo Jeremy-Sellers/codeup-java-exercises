@@ -1,10 +1,8 @@
 import java.util.Scanner;
 public class StringExercise {
     public static void main(String[] args){
-        String firstLyric = "We don't need no education";
+        String firstLyric = "We don't need no education \nWe don't need no thought control";
         System.out.println(firstLyric);
-        String secondLyric = "We don't need no thought control";
-        System.out.println(secondLyric);
 
         String message = "Check \"this\" out!, \"s inside of \"s!";
         System.out.println(message);
