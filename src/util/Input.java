@@ -16,7 +16,7 @@ public class Input {
     }
 
     boolean yesNo(){
-        System.out.println("True or false: You understand Java.");
+        System.out.println("Yes or no");
         String userInput = scanner.nextLine();
         if (userInput.equalsIgnoreCase("y") || userInput.equalsIgnoreCase("yes")) {
             return true;

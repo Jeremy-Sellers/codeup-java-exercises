@@ -8,7 +8,7 @@ public class InputTest {
 //        System.out.println(newScanner.getInt(1,10));
 //        System.out.println(newScanner.getInt());
 //        System.out.println(newScanner.getDouble(1,10));
-        System.out.println(newScanner.getDouble());
+//        System.out.println(newScanner.getDouble());
 
     }
 }
