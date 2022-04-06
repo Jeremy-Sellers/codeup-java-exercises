@@ -3,7 +3,7 @@ package shapes;
 public class ShapesTest{
     public static void main(String[] args) {
 //        Measurable myShape = new Square(5);
-        Measurable myShape = new Rectangle(5,5);
+        Measurable myShape = new Rectangle(5,7);
         myShape.getArea();
         myShape.getPerimeter();
 //        myShape.getLength();
